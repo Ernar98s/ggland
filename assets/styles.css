@@ -15,7 +15,7 @@
   font-family: "Gilroy";
 }
 
-body{
+body {
   background: url("/assets/images/bg1-min.png");
   background-position-y: bottom;
   background-size: cover;
@@ -519,7 +519,6 @@ h4 {
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
   z-index: 199;
-
 }
 
 /* Modal Content */
@@ -566,13 +565,10 @@ h4 {
 }
 
 .card_container span {
-  position: absolute;
-  top: 25%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   color: white;
   font-weight: 700;
   font-size: 16px;
+  display: block;
 }
 
 .ebcf_modal-content p {
@@ -632,6 +628,20 @@ textarea {
 .whats-link img {
   width: 25px;
   height: auto;
+}
+
+.card {
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 260px;
+  height: 120px;
+  background: url("/assets/images/kasp.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 @media (max-width: 1300px) {
